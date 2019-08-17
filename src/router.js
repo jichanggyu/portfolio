@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 import MainPage from './views/MainPage.vue'
+import PortfolioPage from './views/PortfolioPage.vue'
 
 Vue.use(VueRouter)
 
@@ -13,6 +14,11 @@ export default new VueRouter({
         path: '/',
         name: 'Main',
         component: MainPage
+      },
+      {
+        path: '/portfolio',
+        name: 'PortFolio',
+        component: PortfolioPage
       }
     ]
 })

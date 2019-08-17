@@ -1,16 +1,13 @@
 <template>
-<div style="text-align: center;">
-    <router-link to="/portfolio" >
-        <img src="../assets/main.png" style="height: 400px; "/>
-    </router-link>
-
+<div>
+    portfolio
 </div>
 </template>
 
 <script>
 
 export default {
-  name: 'MainPage',
+  name: 'PortFolioPage',
   components: {
   },
   methods: {
@@ -25,5 +22,7 @@ export default {
 </script>
 
 <style>
-
+    .imghover{
+        background-color: brown;
+    }
 </style>
