@@ -1,6 +1,7 @@
 <template>
-<div>
-    asdsa
+<div style="text-align: center;">
+    <img src="../assets/main.png" style="height: 400px;"/>
+    <br>
 </div>
 </template>
 
@@ -20,3 +21,6 @@ export default {
   }
 }
 </script>
+
+<style>
+</style>
