@@ -1,16 +1,18 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
+import MainPage from './views/MainPage.vue'
+
 Vue.use(VueRouter)
 
-export default new Router({
-    mode: 'router',
+export default new VueRouter({
+    mode: 'history',
     base: process.env.BASE_URL,
     routes: [
       {
-        // path: '/',
-        // name: 'home',
-        // component: HomePage
+        path: '/',
+        name: 'Main',
+        component: MainPage
       }
     ]
 })
